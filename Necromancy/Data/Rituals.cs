@@ -13,7 +13,7 @@ public class Rituals
         new[] { Glyphs.Elemental1.Count(1), Glyphs.Elemental2.Count(2), Glyphs.Reagent2.Count(2) }, 
         new[] { Items.LesserNecroplasm.Count(200) },
         new[] { Items.GreaterNecroplasm.Count(100), Items.Ectoplasm.Count(7) });
-    public static readonly Ritual PowerfulNecroplasm = new("Powerful necroplasm", 90, 99, 3300, // TODO duration
+    public static readonly Ritual PowerfulNecroplasm = new("Powerful necroplasm", 90, 84, 3300,
         new[] { Glyphs.Elemental2.Count(2), Glyphs.Elemental3.Count(4), Glyphs.Reagent3.Count(2) }, 
         new[] { Items.GreaterNecroplasm.Count(200) },
         new[] { Items.PowerfulNecroplasm.Count(100), Items.Ectoplasm.Count(15) });
@@ -24,7 +24,7 @@ public class Rituals
         new[] { Glyphs.Elemental2.Count(2), Glyphs.Commune1.Count(1), Glyphs.Commune2.Count(2) }, 
         new[] { Items.DragonkinBones.Count(1) },
         new[] { Items.Soul.Count(20), Items.Ectoplasm.Count(7) });
-    public static readonly Ritual PowerfulCommunionDinosaurBones = new("Powerful communion (Dinosaur bones)", 90, 99, 3300, // TODO duration
+    public static readonly Ritual PowerfulCommunionDinosaurBones = new("Powerful communion (Dinosaur bones)", 90, 84, 3300,
         new[] { Glyphs.Elemental3.Count(4), Glyphs.Commune2.Count(2), Glyphs.Commune3.Count(2) }, 
         new[] { Items.DinosaurBones.Count(1) },
         new[] { Items.Soul.Count(30), Items.Ectoplasm.Count(15) });
